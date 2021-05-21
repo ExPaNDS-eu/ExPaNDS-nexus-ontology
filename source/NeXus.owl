@@ -5,6 +5,7 @@
          xmlns:owl="http://www.w3.org/2002/07/owl#"
          xml:base="http://purl.org/nexusformat/definitions/NeXusOntology"
          xmlns="http://purl.org/nexusformat/definitions/NeXusOntology#"
+         xmlns:term="http://purl.org/dc/terms/"
          xmlns:defi="http://purl.org/nexusformat/definitions/">
 
 <owl:Ontology rdf:about="http://purl.org/nexusformat/definitions/NeXusOntology">
@@ -52,8 +53,11 @@
 </rdfs:comment>
   <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.nexusformat.org/</rdfs:seeAlso>
   <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://github.com/nexusformat</rdfs:seeAlso>
-  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Creation date: Apr-28-2021
-</owl:versionInfo>
+  <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOI for ExPaNDS WP3.2 to be added</rdfs:seeAlso>
+  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">v2020.10-1.0</owl:versionInfo>
+  <term:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NeXus International Advisory Committee (NIAC)</term:creator>
+  <term:licence rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://creativecommons.org/licenses/by/4.0/</term:licence>
+  <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">May-19-2021</term:created>
 </owl:Ontology>
 
 <owl:ObjectProperty rdf:about="#NeXusField">
@@ -6728,7 +6732,7 @@
 <owl:Class rdf:about="http://purl.org/nexusformat/definitions/NXobject">
   <rdfs:subClassOf rdf:resource="#NeXus"/>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This is the base object of NeXus</rdfs:comment>
-  <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://manual.nexusformat.org/classes/base_classes/.html</rdfs:seeAlso>
+  <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://manual.nexusformat.org/classes/base_classes/NXobject.html</rdfs:seeAlso>
 </owl:Class>
 
 <owl:Class rdf:about="#NeXusBaseClass">
